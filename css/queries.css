@@ -252,8 +252,25 @@
     width: 80%;
   }
 
+  .logo {
+    display: none;
+  }
+
   .logos img {
-    height: 1.2rem;
+    height: 5rem;
+  }
+
+  .logos-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logos-list ul>li {
+    width: 100%;
+  }
+
+  .subheading {
+    text-align: center;
   }
 
   .step-img-box:nth-child(2) {
@@ -288,6 +305,10 @@
   .cta-img-box {
     height: 32rem;
     grid-row: 1;
+  }
+
+  .business-content {
+    text-align: center;
   }
 }
 

@@ -5,3 +5,4 @@ var scene = new ScrollMagic.Scene({
 })
     .setClassToggle('.step-img-box', 'show-img')
     .addTo(controller);
+    //scrollmagic code

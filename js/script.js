@@ -50,7 +50,7 @@ btnNavEl.addEventListener("click", function () {
 //      sectionEl.scrollIntoView({ behavior: "smooth" });
 //    }
 //
-//    // Close mobile naviagtion
+//      // Close mobile naviagtion
 //    if (link.classList.contains("main-nav-link"))
 //      headerEl.classList.toggle("nav-open");
 //  });

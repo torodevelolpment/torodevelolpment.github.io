@@ -329,6 +329,10 @@
     flex-direction: column;
     gap: 3.5rem;
   }
+
+  .arrow {
+    display: none;
+  }
 }
 
 /* 

@@ -177,7 +177,7 @@
 }
 
 .delivered-text span {
-  color: #cf711f;
+  color: gold;
   font-weight: 700;
 }
 
@@ -325,22 +325,13 @@
   padding: 0.4rem 0.8rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: #333;
+  background: linear-gradient(to right, #753a88, #cc2b5e);
+  color: white;
   border-radius: 100px;
   font-weight: 600;
 }
 
-.tag--branding {
-  background-color: #51cf66;
-}
 
-.tag--layout {
-  background-color: #94d82d;
-}
-
-.tag--colours {
-  background-color: #ffd43b;
-}
 
 .business-title {
   font-size: 2.4rem;

@@ -97,7 +97,7 @@
   }
 
   .step-number {
-    font-size: 7.4rem;
+    font-size: 4.5rem;
   }
 
   .section-testimonials {
@@ -250,6 +250,12 @@
 
   .hero {
     padding: 0 3.2rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hero-img-box {
+    margin-bottom: 0;
   }
 
   .hero-img {
@@ -317,6 +323,11 @@
 
   .business-content {
     text-align: center;
+  }
+
+  .customers-img-review {
+    flex-direction: column;
+    gap: 3.5rem;
   }
 }
 

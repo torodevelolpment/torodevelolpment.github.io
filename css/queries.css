@@ -333,6 +333,11 @@
   .arrow {
     display: none;
   }
+
+  .feature-icon {
+    height: 3rem;
+    width: 3rem;
+  }
 }
 
 /* 

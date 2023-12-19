@@ -266,6 +266,10 @@
     display: none;
   }
 
+  .logos{
+    margin-top: 8rem;
+  }
+
   .logos img {
     max-width: 50%;
   }

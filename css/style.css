@@ -230,10 +230,12 @@
 
 .logos>ul>li {
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .logos img {
-  width: 100%;
+  width: 50%;
   filter: brightness(0);
   opacity: 50%;
 }

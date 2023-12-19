@@ -9,9 +9,9 @@
     max-width: 120rem;
   }
 
-  .gallery {
+ /* .gallery {
     grid-template-columns: repeat(2, 1fr);
-  }
+  }*/
 }
 
 /**************************/
@@ -231,7 +231,7 @@
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
 
   .btn,
@@ -245,7 +245,7 @@
   }
 
   #section-hero {
-    padding: 2.4rem 0 6.4rem 0;
+    padding: 0.4rem 0rem 7.4rem 0rem;
   }
 
   .hero {

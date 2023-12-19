@@ -399,7 +399,7 @@
   background: linear-gradient(to bottom, #753a88, #cc2b5e);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   display: grid;
-  grid-template-columns: 55fr 45fr;
+  grid-template-rows: 45fr;
   align-items: center;
   margin-bottom: 10rem;
 }
@@ -435,17 +435,15 @@
 
 .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
 }
 
 .img-item {
-  overflow: hidden;
 }
 
 .img-item img {
-  display: block;
   width: 100%;
   transition: all 0.4s;
 }
@@ -458,12 +456,18 @@
 /* SECTION */
 /**************************/
 
+.feature{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
 .feature-icon {
   color: #fff;
   height: 3.2rem;
-  width: 3.2rem;
+  width: 4.2rem;
   background: linear-gradient(to bottom, #753a88, #cc2b5e);
-  margin-bottom: 3.2rem;
   padding: 1.6rem;
   border-radius: 50%;
 
@@ -473,12 +477,7 @@
   font-size: 2.4rem;
   color: #333;
   font-weight: 700;
-  margin-bottom: 1.6rem;
-}
-
-.feature-text {
-  font-size: 1.8rem;
-  line-height: 1.8;
+  margin-left: 3rem;
 }
 
 /**************************/
